@@ -1,0 +1,36 @@
+# Operating system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated experiments and model artefacts
+*.log
+results/*.csv
+results/*.json
+results/*.pkl
+data/
+cache/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Keep large local deliverables out of Git history
+archive/
+media/*.mp4
+
+# Course-provided materials
+src/millionaire_client/
+docs/GroupAssignment2026.pdf

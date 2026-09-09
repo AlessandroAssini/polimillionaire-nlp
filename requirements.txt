@@ -1,0 +1,29 @@
+# Core notebook environment
+requests
+torch
+transformers
+accelerate
+bitsandbytes
+numpy
+pandas
+matplotlib
+sympy
+sentence-transformers
+faiss-cpu
+
+# RAG and evaluation extensions
+langchain-community
+duckduckgo-search
+ddgs
+json-repair
+python-Levenshtein
+
+# Audio extensions (some backends also need ffmpeg or espeak-ng)
+openai-whisper
+librosa
+soundfile
+resampy
+gTTS
+edge-tts
+nest-asyncio
+kokoro
